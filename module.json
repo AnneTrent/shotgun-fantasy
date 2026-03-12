@@ -1,74 +1,81 @@
 {
-    "id": "shotgun-fantasy-expansion-module",
-    "name": "shotgun-fantasy-expansion-module",
-    "title": "Shotgun Fantasy Expansion Module",
-    "description": "Shotgun Fantasy is the isekai supplement for Everyday Heroes, bringing magic, spells, and fantasy to modern adventure.",
-    "version": "1.0.0",
+    "id": "shotgun-fantasy",
+    "name": "shotgun-fantasy",
+    "title": "Shotgun Fantasy",
+    "description": "Shotgun Fantasy is an expansion module for Everyday Heroes, bringing magic, spells, and fantasy to modern adventure.",
+    "version": "0.1.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "SigTrent Games",
             "discord": "sigtrent",
             "url": "https://www.sigtrent.com/"
+        },      
+        {
+            "name": "Anne Trent",
+            "discord": "annetrent",
+            "url": "https://www.annetrent.com/"
         }
+        
     ],
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "12",
+    "minimumCoreVersion": "13",
+    "compatibleCoreVersion": "13",
     "compatibility": {
-        "minimum": "9",
-        "verified": "12"
+        "minimum": "13",
+        "verified": "13"
     },
+    "relationships": {
+        "systems": [
+        {
+            "id": "everyday-heroes",
+            "type": "system",
+            "compatibility": {
+            "minimum": "0.8.4"
+            }
+        }
+        ]
+    },
+    "esmodules": ["module.js"],
+    "styles": ["styles/module.css"],
     "packs": [
         {
-            "name": "module-creatures",
-            "label": "Module Creatures",
-            "path": "./packs/creatures.db",
-            "type": "Actor",
-            "system": "dnd5e"
-        },
-        {
-            "name": "module-items",
-            "label": "Module Items",
-            "path": "./packs/items.db",
+            "name": "archetypes-classes",
+            "label": "Shotgun Fantasy Classes",
+            "path": "packs/archetypes-classes",
             "type": "Item",
-            "system": "dnd5e"
+            "system": "everyday-heroes"
         },
         {
-            "name": "module-scenes",
-            "label": "Module Scenes",
-            "path": "./packs/scenes.db",
-            "type": "Scene"
+            "name": "backgrounds-professions",
+            "label": "Shotgun Fantasy Backgrounds & Professions",
+            "path": "packs/backgrounds-professions",
+            "type": "Item",
+            "system": "everyday-heroes"
         },
         {
-            "name": "module-journal-entries",
-            "label": "Module Journal Entries",
-            "path": "./packs/journal-entries.db",
-            "type": "JournalEntry"
+            "name": "plans-tricks",
+            "label": "Shotgun Fantasy Plans & Tricks",
+            "path": "packs/plans-tricks",
+            "type": "Item",
+            "system": "everyday-heroes"
         },
         {
-            "name": "module-macros",
-            "label": "Module Macros",
-            "path": "./packs/macros.db",
-            "type": "Macro"
+            "name": "feats",
+            "label": "Shotgun Fantasy Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "system": "everyday-heroes"
         },
         {
-            "name": "module-roll-tables",
-            "label": "Module Roll Tables",
-            "path": "./packs/roll-tables.db",
-            "type": "RollTable"
-        },
-        {
-            "name": "module-playlists",
-            "label": "Module Playlists",
-            "path": "./packs/playlists.db",
-            "type": "Playlist"
-        },
-        {
-            "name": "module-adventures",
-            "label": "Module Adventures",
-            "path": "./packs/adventures.db",
-            "type": "Adventure"
+            "name": "equipment",
+            "label": "Shotgun Fantasy Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "system": "everyday-heroes"
         }
     ],
-    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+    
+    "url": "https://github.com/AnneTrent/shotgun-fantasy",
+    "manifest": "https://raw.githubusercontent.com/AnneTrent/shotgun-fantasy/main/module.json",
+    "download": "https://github.com/AnneTrent/shotgun-fantasy/releases/latest/download/module.zip"
   }
