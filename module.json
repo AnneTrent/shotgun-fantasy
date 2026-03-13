@@ -1,6 +1,5 @@
 {
     "id": "shotgun-fantasy",
-    "name": "shotgun-fantasy",
     "title": "Shotgun Fantasy",
     "description": "Shotgun Fantasy is an expansion module for Everyday Heroes, bringing magic, spells, and fantasy to modern adventure.",
     "version": "0.1.0",
@@ -18,8 +17,6 @@
         }
         
     ],
-    "minimumCoreVersion": "13",
-    "compatibleCoreVersion": "13",
     "compatibility": {
         "minimum": "13",
         "verified": "13"
@@ -30,7 +27,7 @@
             "id": "everyday-heroes",
             "type": "system",
             "compatibility": {
-            "minimum": "0.8.4"
+            "minimum": "0.8.1"
             }
         }
         ]

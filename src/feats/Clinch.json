@@ -1,0 +1,56 @@
+{
+  "name": "Clinch",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/clinch.svg",
+  "system": {
+    "description": {
+      "value": "<p>You have developed techniques for holding your opponents in close quarters without having to use your hands.</p><ul><li><p>You can use the Grapple Special attack without needing a free hand.</p></li><li><p>Opponents you have Grappled have Disadvantage on Melee Attack Rolls targeting you.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "clinch"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "c51c43ffc927af51",
+  "_key": "!items!c51c43ffc927af51"
+}
