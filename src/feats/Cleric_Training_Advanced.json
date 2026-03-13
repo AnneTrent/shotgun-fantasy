@@ -1,0 +1,56 @@
+{
+  "name": "Cleric Training, Advanced",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/cleric-training-advanced.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Cleric Training, Level 8+</p><p>You have grown in your faith, attaining the rank of Priest and the powers that come with it.</p><ul><li><p>You gain the rank of Priest in your Religion and gain the corresponding Priest talents.</p></li><li><p>If you don't have enough Mana to cast a spell, you can spend your Inspiration to cast any spell from your religion at a Rank at which you are capable of casting.</p></li><li><p>You are limited to a maximum Spell Rank of 4 when casting as a Cleric.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "cleric-training-advanced"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "e0e7f2868886a7ae",
+  "_key": "!items!e0e7f2868886a7ae"
+}

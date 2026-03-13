@@ -40,6 +40,7 @@
             "label": "Shotgun Fantasy Classes",
             "path": "packs/archetypes-classes",
             "type": "Item",
+            "banner": "modules/shotgun-fantasy/artwork/banners/archetypes-classes.webp",
             "system": "everyday-heroes"
         },
         {
@@ -47,6 +48,7 @@
             "label": "Shotgun Fantasy Backgrounds & Professions",
             "path": "packs/backgrounds-professions",
             "type": "Item",
+            "banner": "modules/shotgun-fantasy/artwork/banners/backgrounds-professions.webp",
             "system": "everyday-heroes"
         },
         {
@@ -54,6 +56,7 @@
             "label": "Shotgun Fantasy Plans & Tricks",
             "path": "packs/plans-tricks",
             "type": "Item",
+            "banner": "modules/shotgun-fantasy/artwork/banners/plans-tricks.webp",
             "system": "everyday-heroes"
         },
         {
@@ -61,6 +64,7 @@
             "label": "Shotgun Fantasy Feats",
             "path": "packs/feats",
             "type": "Item",
+            "banner": "modules/shotgun-fantasy/artwork/banners/feats.webp",
             "system": "everyday-heroes"
         },
         {
@@ -68,10 +72,24 @@
             "label": "Shotgun Fantasy Equipment",
             "path": "packs/equipment",
             "type": "Item",
+            "banner": "modules/shotgun-fantasy/artwork/banners/equipment.webp",
             "system": "everyday-heroes"
         }
     ],
-    
+    "packFolders": [
+    {
+        "name": "Shotgun Fantasy Expansion",
+        "sorting": "m",
+        "color": "#FF00C5",
+        "packs": [
+            "archetypes-classes",
+            "backgrounds-professions",
+            "plans-tricks",
+            "feats",
+            "equipment"
+        ]
+    }
+    ],
     "url": "https://github.com/AnneTrent/shotgun-fantasy",
     "manifest": "https://raw.githubusercontent.com/AnneTrent/shotgun-fantasy/main/module.json",
     "download": "https://github.com/AnneTrent/shotgun-fantasy/releases/latest/download/module.zip"

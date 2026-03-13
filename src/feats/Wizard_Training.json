@@ -1,0 +1,56 @@
+{
+  "name": "Wizard Training",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/wizard-training.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Wizard</p><p>You have become a novice wizard in one of the great colleges of wizardry.</p><ul><li><p>You gain expertise in Arcana if you do not already have it.</p></li><li><p>You gain the College of Magic Talent from the Wizard class.</p></li><li><p>You gain the Spellbook Casting Talent from the Wizard class.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Wizard.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "wizard-training"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "f7e42ef36d0d0690",
+  "_key": "!items!f7e42ef36d0d0690"
+}

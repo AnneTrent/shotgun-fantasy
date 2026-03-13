@@ -1,0 +1,56 @@
+{
+  "name": "Agile Hero Training",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/agile-hero-training.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Not an Agile Hero archetype, Dexterity 13+, Level 2+</p><p>You have trained your reflexes to a razor's edge. Your movements are both swift and elegant.</p><ul><li><p>You gain Basic Equipment proficiency.</p></li><li><p>Choose one from Acrobatics, Sleight of Hand, Stealth, and Vehicles. You gain Proficiency in the chosen Skill.</p></li><li><p>You can take the Dash or Disengage action as a Bonus action.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "agile-hero-training"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "80d394bfc7983765",
+  "_key": "!items!80d394bfc7983765"
+}

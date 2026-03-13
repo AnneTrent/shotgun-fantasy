@@ -1,0 +1,56 @@
+{
+  "name": "Fighter Training, Advanced",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/fighter-training-advanced.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Fighter Training, Level 8+</p><p>You have honed your combat skills to a razor's edge, allowing you to push beyond your usual limits and master the tools of warfare.</p><ul><li><p>By pushing yourself to the limit, you can take an additional Action during your turn. You can do this only once before you finish a Short or Long Rest.</p></li><li><p>Gain the Equipment Mastery talent from the Fighter class, making a single selection of the listed masteries.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "fighter-training-advanced"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "dec2e4738b7254ed",
+  "_key": "!items!dec2e4738b7254ed"
+}

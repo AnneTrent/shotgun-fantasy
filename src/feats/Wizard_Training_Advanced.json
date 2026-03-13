@@ -1,0 +1,56 @@
+{
+  "name": "Wizard Training, Advanced",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/wizard-training-advanced.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Wizard Training, Level 8+</p><p>You have become a journeyman wizard in one of the great colleges of wizardry.</p><ul><li><p>You gain the rank of Journeyman in your College of magic and gain the corresponding Journeyman Talent.</p></li><li><p>You can gain either Skill Training, Advanced Skill Training, or Language Expert.</p></li><li><p>You are limited to a maximum Spell Rank of 4 when casting as a Wizard.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "wizard-training-advanced"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "7c509a7390c4f72f",
+  "_key": "!items!7c509a7390c4f72f"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Cleric Training",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/cleric-training.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Cleric</p><p>You have sought out and obtained the blessings of a divine power, making you a Cleric of their faith.</p><ul><li><p>You gain Proficiency and expertise in Religion if you do not already have them.</p></li><li><p>You gain the Divine Spellcasting Talent from the Cleric class and choose a Religion to follow.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Cleric.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "cleric-training"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "10db1b42891db10c",
+  "_key": "!items!10db1b42891db10c"
+}

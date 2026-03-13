@@ -1,0 +1,56 @@
+{
+  "name": "Tough Hero Training",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/tough-hero-training.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Not a Tough Hero archetype, Constitution 13+, Level 2+</p><p>You have toughened yourself up to where you find a little pain and exertion rather exhilarating.</p><ul><li><p>You gain Basic Equipment proficiency.</p></li><li><p>You gain Damage reduction (against all Damage types) equal to your Proficiency bonus.</p></li><li><p>Once during your turn, when you make an Attack an opponent that has damaged you since the end of your last turn, you gain a +2 bonus on the Attack Roll.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "tough-hero-training"
+    },
+    "type": {
+      "value": "major",
+      "category": "multiclass"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "92461f611fafbfb9",
+  "_key": "!items!92461f611fafbfb9"
+}
