@@ -28,7 +28,7 @@ const SCAN_DIRS = [
 ];
 
 // Matches files already in kebab-ID format: anything-XXXXXXXXXXXXXXXX.json
-const ALREADY_KEBAB = /^.+-[A-Za-z0-9]{16}\.json$/;
+const ALREADY_KEBAB = /^[a-z0-9-]+-[A-Za-z0-9]{16}\.json$/;
 
 function toKebab(str) {
   return str
